@@ -4851,4 +4851,4 @@ a:hover{ color: #d43d80;}
 .thank-you-page h3{color: #fc5185; font-size: 2.5em; margin-top: 1.5em; margin-bottom: 3em;}
 
 
-.portfolio-title {font-size: 46px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); max-width: 50%; text-align: center;}
+.portfolio-title {font-size: 46px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); max-width: 50%; text-align: center; margin: auto;}
