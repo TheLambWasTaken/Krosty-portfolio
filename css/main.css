@@ -3997,6 +3997,8 @@ img.is-bottom { width: 100%; }
 
 @media screen and (min-width: 1216px) { .section.is-long-ish { padding-bottom: 14rem; } }
 
+.section.is-middle p { margin-bottom: rem; }
+
 .section p { margin-bottom: 2rem; }
 
 .section.skills { margin-top: -14rem; padding-bottom: 1rem; }
@@ -4112,6 +4114,10 @@ img.is-bottom { width: 100%; }
 .section.call-to-action .box .button.is-outlined.is-rounded.is-medium { color: #f0f0f0; padding: 1.25em 2em; font-weight: 400; border-width: 2px; }
 
 .section.call-to-action .box .button.is-outlined.is-rounded.is-medium:hover { color: #2f5375; }
+
+footer.section.is-small.is-middle { padding: 1rem 1.5rem 0; }
+
+@media screen and (min-width: 769px) { footer.section.is-small.is-middle { padding: 2rem 1.5rem 0; } }
 
 footer.section.is-small { padding: 3rem 1.5rem 4rem; }
 
@@ -4776,7 +4782,13 @@ svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box
 .section-foot{background-color: #ffffff; font-size: 2rem; color: #000; border-top: 5px; border-radius: 25px 25px 0 0;}
 
 
+.social-contact-icons{ font-size: 2rem; color: #000; border-top: 5px; border-radius: 25px 25px 0 0;}
+
+
 footer .social-port a.button { background-color: transparent; color: #f0f0f0; border-radius: 100%; margin: 0 .2rem; height: 47px; width: 47px; border: 2px solid black; }
+
+
+footer .social-port a.is-middle{ background-color: transparent; color: #f0f0f0; border-radius: 100%; margin: 0 .2rem; height: 47px; width: 47px; border: 2px solid #2f5375; }
 
 
 footer .social-port a.button:hover { background: #e2e2e2; color: #fc5185; border: 2px solid #e2e2e2; }
@@ -4807,6 +4819,12 @@ a:hover{ color: #d43d80;}
 
 
 .discord-foot img{width: 2rem; height: 2rem; margin-right: 10%;}
+
+
+.discord-middle{border: 2px solid #2f5375; margin: auto; margin-top: 0; padding: 15px 30px; max-width: max-content; min-width: max-content; background-color: transparent; color: black; border-radius: 9999px; display: flex; align-content: center; justify-content: center;}
+
+
+.discord-contact{height: 1.7em; margin-top: -0.5em; margin-bottom: -0.5em;}
 
 
 .portfolio-projects{background-color: #364f6b;}
