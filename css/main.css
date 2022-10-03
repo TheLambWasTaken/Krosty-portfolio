@@ -4836,13 +4836,16 @@ a:hover{ color: #d43d80;}
 .portfolio-flex span{width: 100%; text-align: center; border-bottom: 5px solid #364f6b; margin-bottom: 1em; font-size: 1.5em; font-weight: bold; color: #2f5375;}
 
 
-.portfolio-flex iframe{width: 30%; margin: auto; margin-bottom: 1em; border-radius: 1em; aspect-ratio: 16/9;  min-width: 300px;}
+.portfolio-flex iframe, .youtube-embed{width: 30%; margin: auto; margin-bottom: 1em; border-radius: 1em; aspect-ratio: 16/9;  min-width: 300px;}
 
 
-.portfolio-flex-zoom iframe{transition: transform .2s;}
+lite-youtube{border-radius: 1em;}
 
 
-.portfolio-flex-zoom iframe:hover{transform: scale(1.1);}
+.portfolio-flex-zoom iframe, .youtube-embed{transition: transform .2s;}
+
+
+.portfolio-flex-zoom iframe, .youtube-embed:hover{transform: scale(1.1);}
 
 
 .portfolio-decoration{display: flex;}
@@ -4857,10 +4860,10 @@ a:hover{ color: #d43d80;}
 .portfolio-title {font-size: 46px; font-weight: bold; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); max-width: 50%; text-align: center; margin: auto;}
 
 
-@media screen and (max-width: 880px){.portfolio-title {font-size: 7vw;} .portfolio-flex{margin: 2%; justify-content:center;} .portfolio-flex iframe{width: 100%; margin: 1em;}}
+@media screen and (max-width: 880px){.portfolio-title {font-size: 7vw;} .portfolio-flex{margin: 2%; justify-content:center;} .portfolio-flex iframe, .youtube-embed{width: 100%; margin: 1em;}}
 
 
-@media screen and (min-width: 880px) and (max-width: 1130px) {.portfolio-flex iframe{width: 40%; margin: 1em;}}
+@media screen and (min-width: 880px) and (max-width: 1130px) {.portfolio-flex iframe, .youtube-embed{width: 40%; margin: 1em;}}
 
 
 .thank-you-page{display: flex; justify-content: center; align-items: center; flex-direction: column;}
